@@ -31,7 +31,7 @@ export default class DonateDirectly extends Component {
 
         const client = {
             sandbox:process.env.REACT_APP_PAYPAL_API_KEY,
-            production: 'YOUR-PRODUCTION-APP-ID',
+            production: 'YOUR-PRODUCTION-APP-ID this will be her production link',
         }  
         return (
 
