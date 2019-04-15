@@ -93,7 +93,7 @@ export default class DonateDirectly extends Component {
                                         <span class="input-group-text">.00</span>
                                     </div>
                                     </div>
-                                <a href="#" className="btn btn-outline-warning">Donate</a>
+                                    <PaypalExpressBtn env={env} client={client} currency={currency} total={20.00} onError={onError} onSuccess={onSuccess} onCancel={onCancel} />
                             </div>
                             </div>
                         </div>
