@@ -2,15 +2,19 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import styled from "styled-components";
 import {ButtonContainer} from './Button';
+import './Navbar.css';
+import logo from '../assets/AveryLogo.png';
 
 
 export default class Navbar extends Component {
     render(){
         return(
             <div>
-                <NavWraper className="navbar navbar-expand-lg navbar-dark px-sm-5">
-                            <Link to="/">
-                            <h5 className="ab mt-2">#AveryBuilt</h5>
+                <NavWraper className="navbar navbar-expand-lg navbar-light bg-light ">
+                            
+                            
+                            <Link className="nav-item" to="/">
+                            <img className="logo" src={logo} alt="logo" />
                             </Link>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -61,7 +65,7 @@ export default class Navbar extends Component {
 const NavWraper = styled.nav`
     background:var(--mainBlue);
     .nav-link{
-        color:var(--mainwhite) !important;
+        color:var(--mainDark) !important;
         font-size:1.3rem;
         text-transform: capitalize !important;
     }

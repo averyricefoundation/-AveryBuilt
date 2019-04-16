@@ -5,7 +5,7 @@ text-transform:capitalize;
 font-size:1.4rem;
 background:transparent;
 border:0.05rem solid var(--mainwhite);
-color: var(--mainwhite);
+color: var(--mainDark);
 border-radius: 0.6rem;
 padding: 0.2rem 0.5rem;
 cursor:pointer;
