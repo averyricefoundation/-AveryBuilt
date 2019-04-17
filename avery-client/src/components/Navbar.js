@@ -16,11 +16,11 @@ export default class Navbar extends Component {
                             <Link className="nav-item" to="/">
                             <img className="logo" src={logo} alt="logo" />
                             </Link>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon"></span>
                             </button>
 
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav align-items-center ml-auto">
                                                         <li className="nav-item">
                                                             <Link to="/products" className="nav-link">

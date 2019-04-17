@@ -4,6 +4,26 @@ import PaypalExpressBtn from 'react-paypal-express-checkout';
 
 
 export default class DonateDirectly extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {value: ''};
+    
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+      }
+    
+      handleChange(event) {
+        this.setState({value: event.target.value});
+
+      }
+
+      handleSubmit(event) {
+        alert('A name was submitted: ' + this.state.value);
+        event.preventDefault();
+      }
+
+
     render(){
         
 		const onSuccess = (payment) => {
@@ -84,16 +104,16 @@ export default class DonateDirectly extends Component {
                             <div className="card">
                             <div className="card-body">
                                 <h2 className="card-title">Custom Amount</h2>
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">$</span>
+                                <div className="input-group mb-3">
+                                    <div className="input-group-prepend">
+                                        <span className="input-group-text">$</span>
                                     </div>
-                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" />
-                                    <div class="input-group-append">
-                                        <span class="input-group-text">.00</span>
+                                    <input type="text" className="form-control"  value={this.state.value} onChange={this.handleChange} aria-label="Amount (to the nearest dollar)" />
+                                    <div className="input-group-append"> 
+                                        <span className="input-group-text">.00</span>
                                     </div>
                                     </div>
-                                    <PaypalExpressBtn env={env} client={client} currency={currency} total={20.00} onError={onError} onSuccess={onSuccess} onCancel={onCancel} />
+                                    <PaypalExpressBtn type="submit" env={env} client={client} currency={currency} total={this.state.value} onError={onError} onSuccess={onSuccess} onCancel={onCancel} onClick='()=>{ console.log("this.state.value") }' />
                             </div>
                             </div>
                         </div>
