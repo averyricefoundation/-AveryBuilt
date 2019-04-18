@@ -3,6 +3,7 @@
 # Getting started
 Install Node.js and NPM by visiting: https://nodejs.org/en/
 *Please note that npm is installed when you install node.
+
 Install Git Version Control by visiting:https://git-scm.com/downloads
 
 
