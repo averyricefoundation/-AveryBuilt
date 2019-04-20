@@ -15,7 +15,8 @@ export default class DonateDirectly extends Component {
     
       handleChange(event) {
         this.setState({value: event.target.value});
-
+        let monies = this.state
+        return this.state
       }
 
       handleSubmit(event) {
@@ -113,7 +114,7 @@ export default class DonateDirectly extends Component {
                                         <span className="input-group-text">.00</span>
                                     </div>
                                     </div>
-                                    <PaypalExpressBtn type="submit" env={env} client={client} currency={currency} total={this.state.value} onError={onError} onSuccess={onSuccess} onCancel={onCancel} onClick='()=>{ console.log("this.state.value") }' />
+                                    <PaypalExpressBtn type="submit" env={env} client={client} currency={currency} total={this.monies} onError={onError} onSuccess={onSuccess} onCancel={onCancel} onClick='()=>{ console.log("this.state.value") }' />
                             </div>
                             </div>
                         </div>

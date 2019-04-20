@@ -2,6 +2,11 @@ import React, {Component} from 'react';
 
 export default class About extends Component{
     render(){
+
+      const AveryAdlin = require('../assets/averyandadlin.jpg')
+      const Boardslide = require('../assets/boardslide.jpg')
+      const lakeside = require("../assets/AveryLakeside.jpg")
+
         return(
             <div className="container mt-5">
                 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -12,13 +17,13 @@ export default class About extends Component{
                   </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img src={'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?cs=srgb&dl=ancient-architect-architecture-2104882.jpg&fm=jpg'} className="d-block w-100" alt="..."/>
+                      <img src={AveryAdlin} className="d-block w-100" alt="..."/>
                     </div> 
                     <div className="carousel-item">
-                      <img src={"https://images.pexels.com/photos/1130847/pexels-photo-1130847.jpeg?cs=srgb&dl=clouds-cold-daylight-1130847.jpg&fm=jpg"} className="d-block w-100" alt="..." />
+                      <img src={Boardslide} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                      <img src={"https://images.pexels.com/photos/1101246/pexels-photo-1101246.jpeg?cs=srgb&dl=clouds-cloudy-cold-1101246.jpg&fm=jpg"} className="d-block w-100" alt="..." />
+                      <img src={lakeside} className="d-block w-100" alt="..." />
                     </div>
                   </div>
                   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -32,37 +37,25 @@ export default class About extends Component{
                 </div>
                 <div className="container">
                 <h3 className="mt-3">About us</h3>
-                <p>A little happy sunlight shining through there. There we go. If you do too much it's going to lose its effectiveness. We spend so much of our life looking - but never seeing. All you have to do is let your imagination go wild. 
-                  Clouds are free they come and go as they please.
-                  If you don't think every day is a good day - try missing a few. You'll see. 
-                  I guess I'm a little weird. I like to talk to trees and animals. 
-                  That's okay though; I have more fun than most people. 
-                  Just think about these things in your mind - then bring them into your world.
-
-                  I'll go over the colors one more time that we use:
-                  Titanium white, Thalo green, Prussian blue, Van Dyke brown, Alizarin crimson, Sap green, Cad yellow, and Permanent red. 
-                  By now you should be quite happy about what's happening here. 
-                  The only prerequisite is that it makes you happy. 
-                  If it makes you happy then it's good. Isn't it fantastic that you can change your mind and create all these happy things? 
-                  You have to make almighty decisions when you're the creator. 
-                  You could sit here for weeks with your one hair brush trying to do that - or you could do it with one stroke with an almighty brush.</p>
+                <p>Avery Rice Memorial Foundation Inc is a non-profit 
+                  organization that has been established to raise funds 
+                  in order to build a public skatepark in Kissimmee / 
+                  Poinciana area in memory of Avery Michael Rice to 
+                  foster lifelong friendships within the residence in 
+                  the community. The foundation is being run by Avery’s
+                   families and friends who want to keep Avery’s memories 
+                   alive by helping other people create lasting memories. 
+                   The foundation is a way for us to generate funds by 
+                   selling custom designed artworks printed on merchandise. 
+                   All designs are created with Avery’s favorites in mind such as skateboarding, 
+                   car racing, music, and funny things.</p>
                 
             
                 <h3 className="mt-3">Our Vision</h3>
-                <p>A little happy sunlight shining through there. There we go. If you do too much it's going to lose its effectiveness. We spend so much of our life looking - but never seeing. All you have to do is let your imagination go wild. 
-                  Clouds are free they come and go as they please.
-                  If you don't think every day is a good day - try missing a few. You'll see. 
-                  I guess I'm a little weird. I like to talk to trees and animals. 
-                  That's okay though; I have more fun than most people. 
-                  Just think about these things in your mind - then bring them into your world.
-
-                  I'll go over the colors one more time that we use:
-                  Titanium white, Thalo green, Prussian blue, Van Dyke brown, Alizarin crimson, Sap green, Cad yellow, and Permanent red. 
-                  By now you should be quite happy about what's happening here. 
-                  The only prerequisite is that it makes you happy. 
-                  If it makes you happy then it's good. Isn't it fantastic that you can change your mind and create all these happy things? 
-                  You have to make almighty decisions when you're the creator. 
-                  You could sit here for weeks with your one hair brush trying to do that - or you could do it with one stroke with an almighty brush.</p>
+                <p>Through this foundation, our vision is to purchase a land in Kissimmee / Poinciana area and build an indoor skatepark so anyone can safely play without worrying about the weather, 
+                  lighting and other hazards that you would have in an outdoor skatepark. We also want to build a garage equipped with all the mechanical tools next to the skatepark to provide aspiring auto
+                   mechanics the opportunity to learn about fixing and maintaining cars. Donations are a way to share with communities in need so we will use the foundation to be the means of communication via events and celebrations. 
+                   Volunteers are always welcome. Bring out your talent and skills to help others in need. It is just what Avery would do.</p>
                 </div>
             </div>
         )
