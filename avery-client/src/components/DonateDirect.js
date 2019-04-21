@@ -5,25 +5,26 @@ import PaypalExpressBtn from 'react-paypal-express-checkout';
 
 export default class DonateDirectly extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {value: ''};
-    
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
+    constructor(props){
+        super();
+        this.state = {
+          message: ''
+        };
+      }
+      handleChange(e){
+        this.setState({
+          message: e.target.value
+        });
       }
     
-      handleChange(event) {
-        this.setState({value: event.target.value});
-        let monies = this.state
-        return this.state
-      }
+
 
       handleSubmit(event) {
         alert('A name was submitted: ' + this.state.value);
         event.preventDefault();
       }
 
+    
 
     render(){
         
@@ -51,8 +52,8 @@ export default class DonateDirectly extends Component {
 		// Document on Paypal's currency code: https://developer.paypal.com/docs/classic/api/currency_codes/
 
         const client = {
-            sandbox:process.env.REACT_APP_PAYPAL_API_KEY,
-            production: 'YOUR-PRODUCTION-APP-ID this will be her production link',
+            sandbox: process.env.REACT_APP_PAYPAL_KEY,
+            production: process.env.REACT_APP_LIVE_PAYPAL_KEY,
         }  
         return (
 
@@ -109,12 +110,13 @@ export default class DonateDirectly extends Component {
                                     <div className="input-group-prepend">
                                         <span className="input-group-text">$</span>
                                     </div>
-                                    <input type="text" className="form-control"  value={this.state.value} onChange={this.handleChange} aria-label="Amount (to the nearest dollar)" />
+                                    <input type="text" className="form-control" placeholder="Amount of $ to the nearest dollar" value={this.state.message}
+          onChange={this.handleChange.bind(this)} />
                                     <div className="input-group-append"> 
                                         <span className="input-group-text">.00</span>
                                     </div>
                                     </div>
-                                    <PaypalExpressBtn type="submit" env={env} client={client} currency={currency} total={this.monies} onError={onError} onSuccess={onSuccess} onCancel={onCancel} onClick='()=>{ console.log("this.state.value") }' />
+                                    <PaypalExpressBtn type="submit" env={env} client={client} currency={currency} total={this.state.message} onError={onError} onSuccess={onSuccess} onCancel={onCancel} onClick='()=>{ console.log("this.state.value") }' />
                             </div>
                             </div>
                         </div>
