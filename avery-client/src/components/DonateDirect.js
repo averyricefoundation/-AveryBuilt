@@ -52,7 +52,7 @@ export default class DonateDirectly extends Component {
 		// Document on Paypal's currency code: https://developer.paypal.com/docs/classic/api/currency_codes/
 
         const client = {
-            sandbox: process.env.REACT_APP_PAYPAL_KEY,
+            sandbox: process.env.REACT_APP_PAYPAL_API_KEY,
             production: process.env.REACT_APP_LIVE_PAYPAL_KEY,
         }  
         return (
