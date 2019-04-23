@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import styled from "styled-components";
 import {ButtonContainer} from './Button';
 import './Navbar.css';
-import logo from '../assets/AveryLogo.png';
+import logo from '../assets/img/AveryLogo.png';
 
 
 export default class Navbar extends Component {
@@ -42,6 +42,13 @@ export default class Navbar extends Component {
                                                                 donate
                                                             </Link>
                                                         </li>
+                                                        <li className="nav-item">
+                                                            <Link to="/gallery" className="nav-link">
+                                                                gallery
+                                                            </Link>
+                                                        </li>
+                                                        
+
                                                         <li>
                                                         <Link to="/products" className="ml-auto">
                                                                 <ButtonContainer >

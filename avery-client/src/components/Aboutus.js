@@ -3,9 +3,9 @@ import React, {Component} from 'react';
 export default class About extends Component{
     render(){
 
-      const AveryAdlin = require('../assets/averyandadlin.jpg')
-      const Boardslide = require('../assets/boardslide.jpg')
-      const lakeside = require("../assets/AveryLakeside.jpg")
+      const AveryAdlin = require('../assets/img/averyandadlin.jpg')
+      const Boardslide = require('../assets/img/boardslide.jpg')
+      const lakeside = require("../assets/img/AveryLakeside.jpg")
 
         return(
             <div className="container mt-5">
