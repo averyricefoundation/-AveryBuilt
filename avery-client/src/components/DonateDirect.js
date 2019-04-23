@@ -8,12 +8,12 @@ export default class DonateDirectly extends Component {
     constructor(props){
         super();
         this.state = {
-          message: ''
+          monies: ''
         };
       }
       handleChange(e){
         this.setState({
-          message: e.target.value
+          monies: e.target.value
         });
       }
     
@@ -110,13 +110,13 @@ export default class DonateDirectly extends Component {
                                     <div className="input-group-prepend">
                                         <span className="input-group-text">$</span>
                                     </div>
-                                    <input type="text" className="form-control" placeholder="Amount of $ to the nearest dollar" value={this.state.message}
+                                    <input type="text" className="form-control" placeholder="Amount of $ to the nearest dollar" value={this.state.monies}
           onChange={this.handleChange.bind(this)} />
                                     <div className="input-group-append"> 
                                         <span className="input-group-text">.00</span>
                                     </div>
                                     </div>
-                                    <PaypalExpressBtn type="submit" env={env} client={client} currency={currency} total={this.state.message} onError={onError} onSuccess={onSuccess} onCancel={onCancel} onClick='()=>{ console.log("this.state.value") }' />
+                                    <PaypalExpressBtn type="submit" env={env} client={client} currency={currency} total={this.state.monies} onError={onError} onSuccess={onSuccess} onCancel={onCancel} onClick='()=>{ console.log("this.state.value") }' />
                             </div>
                             </div>
                         </div>

@@ -12,7 +12,7 @@ import Mission from './components/Mission';
 import Donate from './components/Donate';
 import DonateDirectly from './components/DonateDirect';
 import About from './components/Aboutus';
-import Gallery from './components/Gallery';
+import PhotoGallery from './components/Gallery';
 
 class App extends Component {
   render() {
@@ -28,7 +28,7 @@ class App extends Component {
             <Route path="/donate" component={Donate} />
             <Route path="/donatedirectly" component={DonateDirectly} />
             <Route path="/about" component={About} />
-            <Route path="/gallery" component={Gallery} />
+            <Route path="/gallery" component={PhotoGallery} />
             <Route component={Default} />
           </Switch>
       </React.Fragment>

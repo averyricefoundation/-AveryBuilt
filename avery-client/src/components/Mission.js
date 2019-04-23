@@ -16,13 +16,18 @@ export default class Mission extends Component {
 
                             <h2>About Avery</h2>
                             <p>
-                            We believe that if someone would have just called 911 or dropped Avery at the hospital between the time of 6:00 pm and 9:00 pm, he would still be alive right now. 
-                            On the night of January 13, 2019, Avery was brought to the house across the street and was put on the lawn not breathing and unresponsive. 
-                            His friends didn't want to call 911 because they were afraid that Avery will go to jail if the police found out he was using drugs. 
-                            You see, away from skateboarding and fixing cars, Avery had friends who were not a good influence and led him down the wrong path.
-                            Here you will be able to memorialize Avery Michael Rice, who spent countless hours helping people out, friends or strangers, even if he puts himself in danger. 
-                            He lived his life to the fullest and encouraged others to do the same. Our vision is to build a skatepark to commemorate Avery and let everyone enjoy as much as Avery would have enjoyed skating. 
-                            Skateboarding is first and foremost his love and passion. Below you will learn why he loved skateboarding.
+                            Avery Michael Rice was born on September 21, 1995 in Bloomington, Illinois. 
+                            He spent countless hours helping people out (friends, family, strangers). 
+                            Avery made friends everywhere he went. 
+                            It seemed that he knew who needed to have a friend and he befriended them without making them feel like he knew they needed someone to be their friend. He opened his home to friends when they needed a place to stay. When he started realizing his love for skateboarding,
+                            he would find people who were also into skateboarding and would challenge them to encourage them to practice and get better. 
+                            Skateboarding was first and foremost his love and passion. When he was in high school, 
+                            Avery would be the first one to say no to drugs and alcohol. 
+                            He skated because he liked the natural high of adrenalin rush that you get during an execution and feeling the sense of accomplishment when he successfully lands a trick that he has been working on.
+                            Avery also discovered a passion in car racing and actually learned how to do mechanic work by reading a volume of auto mechanic books that he bought online, watching YouTube videos and hanging out with friends who had the same passion and worked with them to learn about cars and how to customize them. He was even able to re-build an engine. 
+                            Whenever his friends needed their car fixed or maintained, they would come to the house and ask for his help. 
+                            He is the kind of person who would always extend his hands out to help. 
+                            On January 13th, 2019, God took him from us when he was just 23 years old. Avery lived his life to the fullest and encouraged others to do the same.
                             </p>
 
 
