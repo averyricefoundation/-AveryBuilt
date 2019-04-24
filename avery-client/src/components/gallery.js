@@ -39,91 +39,121 @@ export default class PhotoGallery extends Component {
 
         const photos =[
             {
-                src:require('../assets/img/instagram_5.jpg'),
+                //1
+                src:require('../assets/img/avery_9.jpg'),
+                width:3,
+                height:4,
+            },
+            {
+                
+                src:require("../assets/img/avery_1.jpg"),
                 width:4,
                 height:3,
             },
             {
-                src:require("../assets/img/instagram_6.jpg"),
-                width:4,
-                height:3,
-            },
-            {
-                src:require("../assets/img/instagram_7.jpg"),
-                width:2,
+                src:require("../assets/img/avery_2.jpg"),
+                width:3,
                 height:2,
             },
             {
-                src:require("../assets/img/instagram_8.jpg"),
-                width:3,
-                height:3,
-            },
-            {
-                src:require("../assets/img/instagram_8.jpg"),
-                width:4,
-                height:3,
-            },
-            {
-                src:require("../assets/img/instagram_9.jpg"),
-                width:1,
-                height:1,
-            },
-            {
-                src:require("../assets/img/instagram_10.jpg"),
+                src:require("../assets/img/avery_8.jpg"),
                 width:3,
                 height:4,
             },
             {
-                src:require("../assets/img/instagram_11.jpg"),
-                width:2,
-                height:3,
-            },
-            {
-                src:require("../assets/img/instagram_12.jpg"),
+                //5
+                src:require("../assets/img/avery_7.jpg"),
                 width:4,
                 height:3,
             },
             {
-                src:require("../assets/img/instagram_13.jpg"),
-                width:1,
-                height:1,
-            },
-            {
-                src:require("../assets/img/instagram_14.jpg"),
+                src:require("../assets/img/avery_10.jpg"),
                 width:4,
                 height:3,
             },
             {
-                src:require("../assets/img/instagram_15.jpg"),
-                width:2,
-                height:1,
-            },
-            {
-                src:require("../assets/img/instagram_16.jpg"),
-                width:3,
+                src:require("../assets/img/avery_11.jpg"),
+                width:5,
                 height:4,
             },
             {
-                src:require("../assets/img/instagram_17.jpg"),
+                src:require("../assets/img/avery_12.jpg"),
+                width:6,
+                height:4,
+            },
+            {
+                src:require("../assets/img/averyandadlin.jpg"),
+                width:4,
+                height:3,
+            },
+            {
+                //10
+                src:require("../assets/img/AveryLakeside.jpg"),
                 width:5,
                 height:3,
             },
             {
-                src:require("../assets/img/instagram_18.jpg"),
+                src:require("../assets/img/boardslide.jpg"),
+                width:4,
+                height:3,
+            },
+            {
+                src:require("../assets/img/Chillin.jpg"),
+                width:3,
+                height:5,
+            },
+            {
+                src:require("../assets/img/avery_16.jpg"),
                 width:3,
                 height:4,
             },
             {
-                src:require("../assets/img/instagram_1.jpg"),
-                width:4,
+                src:require("../assets/img/avery_17.jpg"),
+                width:5,
+                height:3,
+            },
+            {
+                //15
+                src:require("../assets/img/avery_18.jpg"),
+                width:6,
+                height:4,
+            },
+            {
+                src:require("../assets/img/avery_5.jpg"),
+                width:3,
                 height:2,
             },
             {
-                src:require("../assets/img/instagram_2.jpg"),
+                src:require("../assets/img/avery_4.jpg"),
                 width:4,
                 height:3,
             },
-
+            {
+                src:require("../assets/img/avery_3.jpg"),
+                width:4,
+                height:3,
+            },
+            {
+                src:require("../assets/img/avery_6.jpg"),
+                width:4,
+                height:3,
+            },
+            {
+                //20
+                src:require("../assets/img/avery_13.jpg"),
+                width:5,
+                height:3,
+            },
+            {
+                src:require("../assets/img/avery_14.jpg"),
+                width:3,
+                height:4,
+            },
+            {
+                src:require("../assets/img/avery_15.jpg"),
+                width:4,
+                height:3,
+            },
         ]
 
 
