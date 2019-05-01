@@ -11,3 +11,6 @@ Clone this repository using git clone, in the terminal or by downloading the zip
 This will install all node modules inside of the package.json dependencies. 
 
 After install, run npm start to begin the react server.
+
+
+This Build Has been deprecated, a newer build will be posted soon with in a new repository.
